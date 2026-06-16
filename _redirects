@@ -1,0 +1,11 @@
+# Cloudflare Pages clean-URL redirects.
+# This lets people land on /about and have it serve about.html,
+# in addition to the explicit /about.html that the nav uses.
+# Cloudflare Pages reads this file at the site root.
+
+/about      /about.html      200
+/services   /services.html   200
+/fees       /fees.html       200
+/resources  /resources.html  200
+/contact    /contact.html    200
+/faq        /faq.html        200
